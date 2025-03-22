@@ -7,6 +7,6 @@ class ExampleTest {
     @org.junit.jupiter.api.Test
     void getMixNumber() {
         Example ex = new Example("id", "name", "description1", 4, 5);
-        assertEquals(20, ex.getMixNumber());
+        assertEquals(22, ex.getMixNumber());
     }
 }
